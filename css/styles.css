@@ -1,0 +1,54 @@
+:root {
+    --main-title-color: #FFFFFF;
+    --second-title-color: #212121;
+    --main-text-color: #757575; 
+    --second-text-color: color: rgba(255, 255, 255, 0.6);
+    --accent-color: #2196F3; 
+    --main-btn-color: #212121;
+    --second-btn-color: #FFFFFF; 
+    --header-text-color: #212121; 
+}
+
+body {
+    font-family: "Roboto";
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;    
+}
+
+.link:hover,.link:focus {
+    color: var(--accent-color);  
+}
+
+.header {
+    background-color: #FFFFFF;
+}
+
+.header-link { 
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--header-text-color);
+}
+
+.header-mail {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--main-text-color);
+}
+
+.header-phone {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--main-text-color);
+}
