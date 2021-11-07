@@ -1,14 +1,13 @@
 :root {
-  --main-title-color: #ffffff;
-  --second-title-color: #212121;
-  --main-text-color: #757575;
-  --second-text-color: rgba(255, 255, 255, 0.6);
+  /* text variables*/
+  --main-text-color: #212121;
+  --alternative-text-color: #ffffff;
+  --paragraph-text-color: #757575;
   --accent-color: #2196f3;
-  --main-btn-text-color: #212121;
-  --second-btn-text-color: #ffffff;
-  --header-text-color: #212121;
+  /* button variables */
   --inactive-btn-color: #f5f4fa;
   --active-btn-color: #2196f3;
+  /* background variables */
   --main-background-color: #ffffff;
   --dark-background-color: #2f303a;
   --light-background-color: #f5f4fa;
@@ -16,7 +15,7 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  color: var(--header-text-color);
+  color: var(--main-text-color);
 }
 
 .list {
@@ -47,11 +46,11 @@ body {
 }
 
 .logo-right-dark {
-  color: var(--header-text-color);
+  color: var(--main-text-color);
 }
 
 .logo-right-light {
-  color: var(--main-title-color);
+  color: var(--alternative-text-color);
 }
 
 /*-------------- HEADER --------------*/
@@ -65,7 +64,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--header-text-color);
+  color: var(--main-text-color);
 }
 
 .header-link-active {
@@ -77,7 +76,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--main-text-color);
+  color: var(--paragraph-text-color);
 }
 
 .header-phone {
@@ -85,7 +84,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--main-text-color);
+  color: var(--paragraph-text-color);
 }
 
 /*-------------- SERVICES --------------*/
@@ -101,7 +100,7 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: var(--main-title-color);
+  color: var(--alternative-text-color);
 }
 
 .services-button {
@@ -112,8 +111,7 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-
-  color: var(--second-btn-text-color);
+  color: var(--alternative-text-color);
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -135,7 +133,7 @@ body {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--header-text-color);
+  color: var(--main-text-color);
 }
 
 .advantages-text {
@@ -143,7 +141,7 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--main-text-color);
+  color: var(--paragraph-text-color);
 }
 
 /*------------- TECHNOLOGIES ------------- */
@@ -158,7 +156,7 @@ body {
   line-height: 42px;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--header-text-color);
+  color: var(--main-text-color);
 }
 
 /*----------------- TEAM -------------------*/
@@ -173,7 +171,7 @@ body {
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--header-text-color);
+  color: var(--main-text-color);
 }
 
 .team-member {
@@ -182,7 +180,7 @@ body {
   line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--header-text-color);
+  color: var(--main-text-color);
 }
 
 .team-role {
@@ -191,7 +189,7 @@ body {
   line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--main-text-color);
+  color: var(--paragraph-text-color);
 }
 
 /*---------------- PROJECTS --------------- */
@@ -211,7 +209,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   cursor: pointer;
-  color: var(--main-btn-text-color);
+  color: var(--main-text-color);
   background-color: var(--inactive-btn-color);
 }
 
@@ -219,7 +217,7 @@ body {
 .filter-button:hover,
 .filter-button:focus {
   background-color: var(--active-btn-color);
-  color: var(--second-btn-text-color);
+  color: var(--alternative-text-color);
 }
 
 .projects-name {
@@ -227,7 +225,7 @@ body {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: var(--header-text-color);
+  color: var(--main-text-color);
 }
 
 .projects-type {
@@ -235,7 +233,7 @@ body {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
-  color: var(--main-text-color);
+  color: var(--paragraph-text-color);
 }
 
 /*---------------- FOOTER -----------------*/
@@ -253,7 +251,7 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--main-title-color);
+  color: var(--alternative-text-color);
 }
 
 .footer-link {
@@ -261,5 +259,5 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--second-text-color);
+  color: rgba(255, 255, 255, 0.6);
 }
